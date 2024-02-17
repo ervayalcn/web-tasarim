@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Sitem</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Eklenti</a>
+            <div class="menu-icon" onclick="toggleNav()">
+                &#9776;
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="nav-links">
+                <li><a href="#" onclick="scrollToSection('intro')">Biz Kimiz</a></li>
+                <li><a href="#" onclick="scrollToSection('services')">Hizmetler</a></li>
+                <li><a href="#" onclick="scrollToSection('content')">Yazılar</a></li>
+                <li><a href="#" onclick="scrollToSection('contact')">Bize Ulaş</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="content">
+        <section id="intro">
+            <div class="responsive-edit">
+                <p class="header-text-style">Sana en iyi hizmeti verebilmek için buradayız!</p>
+                <p class="subtext-style">Eğer hazırsan başlıyoruz...</p>
+            </div>
+            <div >
+                <img class="backgrnd" src="background.png">
+            </div>
+            <div style="justify-content: center; align-items: center; display: flex;">
+                <button class="arrow"> <img src="arrow.png"></button>
+            </div>
+            <div>
+                <p class="header-text-style">Biz Kimiz?</p>
+                <p class="subtext-style" style="font-size: 36px;">Fazla uzatmadan, sadece üzerinden geçeceğim..</p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <p class="intro-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Nullam bibendum consectetur nisi, pulvinar dapibus erat rhoncus a. Fusce sed tellus et sapien aliquet bibendum aliquam condimentum erat. Donec ut malesuada enim, ut ultricies risus. Quisque tristique lacus vestibulum, volutpat eros ut, fringilla nibh. Curabitur vel sodales lorem, vel gravida tellus. Quisque bibendum facilisis imperdiet. Nunc congue tempus mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt vehicula tellus, in sodales leo accumsan quis. Sed tempor leo quis est volutpat auctor. Pellentesque lacinia ex nec metus maximus, in luctus erat cursus. Mauris rhoncus augue id ligula sollicitudin dictum. Fusce vehicula ligula purus, vitae scelerisque nisl ultricies aliquet.</p>
+                </div>
+            </div>
+            <div class="bankfooter">
+                <img src="is-bankasi.png">
+                <img src="ing.png">
+                <img src="garanti.png">
+                <img src="halkbank.png">
+            </div>
+        </section>
+
+        <section id="services">
+            <p class="header-text-style">Hizmetler</p>
+            <p class="subtext-style" style="font-size: 36px;">Verdiğimiz tüm hizmetler.</p>
+            <div class="services-style">
+                <div class="services-box">
+                    <img class="services-img" src="brush.png">
+                    <h3>Tasarım</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                </div>
+                <div class="services-box">
+                    <img class="services-img" src="brush.png">
+                    <h3>Tasarım</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                </div>
+                <div class="services-box">
+                    <img class="services-img" src="brush.png">
+                    <h3>Tasarım</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                
+                </div>
+            </div>
+            <div class="services-style">
+                <div class="services-box">
+                    <img class="services-img" src="brush.png">
+                    <h3>Tasarım</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                
+                </div>
+                <div class="services-box">
+                    <img  class="services-img" src="brush.png">
+                    <h3>Tasarım</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                
+                </div>
+                <div class="services-box">
+                    <img class="services-img" src="brush.png">
+                    <h3>Tasarım</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                
+                </div>
+            </div>
+        </section>
+        
+
+        <section style="background-color: #F8F8F8; padding-bottom: 8px;" id="content">
+            <div class="mbck">
+            <div class="left-line-group" style="margin-left: 300px;"></div>
+            <div class="left-line-group" style="margin-left: 400px;"></div>
+            </div>
+            <div class="right-line-group" style="margin-left: 1250px;"></div>
+            <div class="right-line-group" style="margin-left: 1150px;"></div>
+            <p class="header-text-style">Yazılar</p>
+            <p class="subtext-style" style="font-size: 36px;">Yazdığımız bazı yazılar.</p>
+            <div class="articles-container">
+                <div class="content-box">
+                    <img class="content-img" src="photo.png">
+                    <div class="box" >
+                        <p class="articles-header">Sunucularımız yenilendi!</p>
+                        <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                        <p class="continue">Devamını oku<img style="margin-left: 10px; margin-top: 8px;" src="arrow2.png"></p>
+                    </div>
+                </div>
+
+                <div class="content-box">
+                    <img class="content-img" src="photo.png">
+                    <div class="box" >
+                        <p class="articles-header">Sunucularımız yenilendi!</p>
+                        <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                        <p class="continue">Devamını oku<img style="margin-left: 10px; margin-top: 8px;" src="arrow2.png"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="articles-container">
+                <div class="content-box">
+                    <img class="content-img" src="photo.png">
+                    <div class="box" >
+                        <p class="articles-header">Sunucularımız yenilendi!</p>
+                        <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                        <p class="continue">Devamını oku<img style="margin-left: 10px; margin-top: 8px;" src="arrow2.png"></p>
+                    </div>
+                </div>
+
+                <div class="content-box">
+                    <img class="content-img" src="photo.png">
+                    <div class="box" >
+                        <p class="articles-header">Sunucularımız yenilendi!</p>
+                        <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus erat sapien, aliquam ac tortor eu, accumsan vestibulum quam.</p>
+                        <p class="continue">Devamını oku<img style="margin-left: 10px; margin-top: 8px;" src="arrow2.png"></p>
+                    </div>
+                </div>
+            </div>
+            <p class="see-more">Daha fazlasını gör</p>
+        </section>
+
+        <section id="contact">
+            <p class="header-text-style">Bize ulaşın</p>
+            <p class="subtext-style" style="font-size: 36px;">Bizimle iletişime geçmenin yolları.</p>
+            <div style="position: relative;" class="contact-box">
+                <div  class="contact-images"><img class="contact-img" src="telephone.png"><div class="white-shape"></div></div>
+
+<div  class="contact-images"><img class="contact-img" src="location.png"><div class="white-shape"></div></div>
+
+<div  class="contact-images"><img class="contact-img" src="email-line.png"><div class="white-shape"></div></div>
+
+            </div>
+        <div class="contact-box" style="margin-top: 0;" >
+            <div class="contact-info">
+                <p class="contact-text">+44 079 8821 0350
+                </p>
+            </div>
+            <div class="contact-info">
+                <p class="contact-text">89 The Drive LEEDS LS47 5DW
+                </p>
+            </div>
+            <div class="contact-info">
+                <p class="contact-text">support@eklenti.co</p>
+            </div>
+        </div>
+        <p class="contact-line">Veya</p>
+        <div style="justify-content: center;" class="services-style">
+        <div class="form-style"><p class="form-placeholder">İsim soyisim</p></div>
+        <div class="form-style"><p class="email-placeholder">Email</p></div>
+        </div>
+        <div style="justify-content: center;" class="services-style">
+            <div style="width: 550px; margin-top: 0;" class="form-style"><p class="form-placeholder">Mesaj Konusu</p></div>
+        </div>
+        <div style="justify-content: center;" class="services-style">
+            <div style="width: 550px; height: 165px; margin-top: 0;" class="form-style"><p class="form-placeholder">Mesaj Detayı</p></div>
+        </div>
+        <div style="justify-content: center;" class="services-style">
+            <div class="send-button"><p class="send-buttontxt">Mesaj Gönder</p></div>
+        </div>
+            
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <div><p>Tüm hakları saklı değildir.</p></div>
+        <div><p>patrick2dev</p></div>
+    </footer>
+
+    <script>
+    function toggleNav() {
+    var menuToggle = document.getElementById('menu-toggle');
+    var navLinks = document.querySelector('.nav-links');
+
+    if (menuToggle.checked) {
+        menuToggle.checked = false;
+        navLinks.classList.remove('show');
+        document.body.style.overflow = 'auto';
+    } else {
+        menuToggle.checked = true;
+        navLinks.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function scrollToSection(sectionId) {
+    var menuToggle = document.getElementById('menu-toggle');
+    var navLinks = document.querySelector('.nav-links');
+    var section = document.getElementById(sectionId);
+
+    if (section) {
+        var offset = section.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({top:offset ,behavior:'smooth' });
+        event.preventDefault();
+
+        menuToggle.checked = false;
+        navLinks.classList.remove('show');
+
+        document.body.style.overflow = 'auto';
+
+        history.replaceState(null, null, '#' + sectionId);
+    }
+}
+    </script>
+
+</body>
+</html>
